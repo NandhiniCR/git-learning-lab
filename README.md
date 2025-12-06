@@ -42,7 +42,7 @@ Git commands are not infinte. They fall into 10 main categories.
 
     F) git init --bare
     Explanation: Creates a Git repository without a working directory—just the version control data wherethis is commonly used to set up a central or shared remote     repository for collaboration.
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------   3. FILE TRACKING AND STAGING COMMANDS
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------   3. FILE TRACKING AND STAGING COMMANDS
      A) git add <file>
      Explanation: Adds the specified file to the staging area so its changes are prepared to be included in the next commit where this is useful for selecting           exactly which files you want to record in your commit.
     
@@ -60,4 +60,4 @@ Git commands are not infinte. They fall into 10 main categories.
 
      F) git restore --staged <file>
      Explanation: Removes the file from the staging area while keeping your actual changes intact where this is helpful when you accidentally added a file to            staging and want to revise what goes into the next commit.
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------  
+  -----------------------------------------------------------------------------------------------------------------------------------------------------------------  
