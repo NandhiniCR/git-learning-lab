@@ -3,7 +3,7 @@
 NOTE:- short, professional, and strong.
 
 Let's Start
-Git commands are not imfinte. They fall into 10 main categories.
+Git commands are not infinte. They fall into 10 main categories.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1. SETUP AND CONFIGURATION COMMANDS
    A) git --version
