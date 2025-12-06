@@ -1,7 +1,6 @@
 # git-learning-lab
 "A clean and complete reference of essential Git commands, organized by category with clear explanations for beginners and professionals."    
 NOTE:- short, professional, and strong.
-
 Let's Start
 Git commands are not infinte. They fall into 10 main categories.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -42,7 +41,8 @@ Git commands are not infinte. They fall into 10 main categories.
 
     F) git init --bare
     Explanation: Creates a Git repository without a working directory—just the version control data wherethis is commonly used to set up a central or shared remote     repository for collaboration.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------   3. FILE TRACKING AND STAGING COMMANDS
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+       3. FILE TRACKING AND STAGING COMMANDS
      A) git add <file>
      Explanation: Adds the specified file to the staging area so its changes are prepared to be included in the next commit where this is useful for selecting           exactly which files you want to record in your commit.
     
