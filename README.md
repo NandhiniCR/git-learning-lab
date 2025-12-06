@@ -6,6 +6,7 @@ Let's Start
 Git commands are not infinte. They fall into 10 main categories.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1. SETUP AND CONFIGURATION COMMANDS
+   
    A) git --version
       Explanation: Shows the version of Git installed on your computer aHelps you confirm Git installed and check which version you're running.
     
@@ -25,6 +26,7 @@ Git commands are not infinte. They fall into 10 main categories.
       Explanation: Shows detailed help for a specific Git command. Ex:git help commit helps you understand what the command does, its options, and how to use it.
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------
  2. REPOSITORY CREATION COMMANDS
+    
     A) git init
     Explanation: Initializes a new empty Git repository in the current directory and allows you to start tracking file changes and version history locally.
 
@@ -44,6 +46,7 @@ Git commands are not infinte. They fall into 10 main categories.
     Explanation: Creates a Git repository without a working directory—just the version control data wherethis is commonly used to set up a central or shared remote     repository for collaboration.
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------
   3. FILE TRACKING AND STAGING COMMANDS
+     
      A) git add <file>
      Explanation: Adds the specified file to the staging area so its changes are prepared to be included in the next commit where this is useful for selecting           exactly which files you want to record in your commit.
     
