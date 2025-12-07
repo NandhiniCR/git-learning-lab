@@ -16,7 +16,7 @@ Git commands are not infinte. They fall into 10 main categories.
    
       Explanation: Sets your Git username for all repositories on your system. Example: git config -- global user.name "John Doe". Git attaches this name to your         commits so others can see who made the changes.
    
-   C) git config --global user.email
+   C) git config -- global user.email
    
       Explanation: Sets your email address for all Git repositories. Example: git config --global user.email "john@example.com" Your email gets attached to your          commits and identifies you on platforms like GitHub.
    
