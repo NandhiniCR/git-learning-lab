@@ -5,109 +5,144 @@ NOTE:- short, professional, and strong.
 Let's Start
 
 Git commands are not infinte. They fall into 10 main categories.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-1. SETUP AND CONFIGURATION COMMANDS
-   
-   A) git --version
-   
-      Explanation: Shows the version of Git installed on your computer Helps you confirm Git installed and check which version you're running.
-    
-   B) git config -- global user.name
-   
-      Explanation: Sets your Git username for all repositories on your system. Example: git config -- global user.name "John Doe". Git attaches this name to your         commits so others can see who made the changes.
-   
-   C) git config -- global user.email
-   
-      Explanation: Sets your email address for all Git repositories. Example: git config --global user.email "john@example.com" Your email gets attached to your          commits and identifies you on platforms like GitHub.
-   
-   D) git config --list
-   
-      Explanation: Displays all Git configuration settings such as username, email, and editor. Useful for verifying that your Git setup is correct.
-   
-   E) git help
-   
-      Explanation: Opens the general Git help documentation. It provides a list of Git commands and guides on how to use them.
-   
- ------------------------------------------------------------------------------------------------------------------------------------------------------------------
- 2. REPOSITORY CREATION COMMANDS
-    
-    A) git init
-    
-    Explanation: Initializes a new empty Git repository in the current directory, allowing you to start tracking changes and version history.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1️⃣ Setup & Configuration Commands
 
-    B) git clone <url>
-    
-    Explanation: Creates a local copy of a remote repository using its URL. This allows you to work on an existing project and synchronize changes.
-    
-    C) git init -b main
-    
-     Explanation: Initializes a repository with the default branch set to main, instead of older defaults like master
+   A) git --version — Check installed Git version
 
-    D) git clone --branch <branch> <url>
-    
-    Explanation: Clones a repository and checks out a specific branch. Example: git clone --branch dev <url>. Useful when you want to work on a particular branch        instead of the default.
+   B) git config --global user.name "Your Name" — Set username
 
-    E) git clone --depth 1 <url>
-    
-    Explanation: Creates a shallow clone containing only the latest commit. Useful for faster cloning and reduced storage when full history isn’t needed.
+   C) git config --global user.email "you@example.com" — Set email
 
-    F) git init --bare
-    
-    Explanation: Creates a repository without a working directory—only the version history. Commonly used to set up a central shared remote repository.
-    
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  3. FILE TRACKING AND STAGING COMMANDS
-     
-     A) git add <file>
-     
-     Explanation: Adds a specific file to the staging area so it will be included in the next commit. Useful for selecting which changes to commit.
-    
-     B) git add .
-     
-     Explanation: Stages all modified, new, and deleted files in the current directory. Useful for preparing all changes at once.
+   D) git config --list — Show all config settings
 
-     C) git rm <file>
-     
-     Explanation: Removes a file from the working directory and from Git tracking. Use it when you want to permanently delete a file from the repository.
+   E) git help — Show Git help menu
 
-     D) git rm --cached <file>
-     
-     Explanation: Removes a file from Git tracking but keeps it in your local system. Useful for untracking files like config or environment files.
-    
-     E) git mv <old> <new>
-     
-     Explanation: Renames or moves a file and automatically stages the change where this ensures Git correctly tracks the file’s history even after being renamed        or relocated.
+   F) git help <command> — Explain any Git command
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2️⃣ Repository Creation Commands
 
-     F) git restore --staged <file>
-     
-     Explanation: Unstages a file without changing its actual content. Useful if you accidentally added a file to the staging area.
-     
------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+   A) git init — Create a new Git repository
 
-4. COMMIT COMMANDS
+   B) git clone <url> — Clone/download a remote repo
 
-   A) git commit -m "message"
-   
-   Explanation: Creates a new commit with the staged changes and attaches a commit message. This is the standard way to save your work in Git.
+   C) git init -b main — Create repo with main as default branch
 
-   B) git commit -am "message"
-   
-   Explanation: Adds and commits all modified, already-tracked files in one step. Useful when you want to quickly commit updates without running git add manually.
+   D) git clone --branch <branch> <url> — Clone specific branch
 
-   C) git commit --amend
-   
-   Explanation: Modifies the most recent commit. You can update the commit message or include additional staged changes.
+   E) git clone --depth 1 <url> — Shallow clone (faster)
 
-   D) git reset HEAD~1
-  
-   Explanation: Reverts the last commit but keeps the changes in your working directory. Useful when you want to redo the commit without losing your work.
+   F) git init --bare — Create a bare repository (server-style)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3️⃣ File Tracking & Staging Commands
 
-   E) git reset --soft HEAD~1
-  
-   Explanation: Removes the last commit but keeps all changes staged. Use this when you want to rewrite or combine commits.
+   A) git add <file> — Stage a file
 
-   F) git reset --hard HEAD~1
-  
-   Explanation: Completely deletes the last commit and discards all related changes. Use with caution because this action cannot be undone.
-  
+   B) git add . — Stage all files
+
+   C) git rm <file> — Remove file from repo & filesystem
+
+   D) git rm --cached <file> — Stop tracking file (keep it locally)
+
+   E) git mv <old> <new> — Rename/move a file
+
+   F) git restore --staged <file> — Unstage file
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4️⃣ Commit Commands
+
+git commit -m "message" — Commit staged changes
+
+git commit -am "message" — Add & commit tracked files
+
+git commit --amend — Edit last commit message
+
+git reset HEAD~1 — Undo last commit, keep changes
+
+git reset --soft HEAD~1 — Undo commit, keep staged
+
+git reset --hard HEAD~1 — Undo commit & delete changes
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5️⃣ Branching Commands
+
+git branch — List all branches
+
+git branch <name> — Create a new branch
+
+git branch -d <name> — Delete merged branch
+
+git branch -D <name> — Force delete branch
+
+git switch <name> — Switch branches
+
+git switch -c <name> — Create + switch branch
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6️⃣ Merging & Rebase Commands
+
+git merge <branch> — Merge branch into current
+
+git merge --abort — Cancel a conflicted merge
+
+git rebase <branch> — Rebase on top of another branch
+
+git rebase --continue — Continue rebase after conflict
+
+git rebase --abort — Cancel rebase
+
+git merge --no-ff <branch> — Create merge commit even when fast-forward
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7️⃣ Remote Repository Commands
+
+git remote — List remotes
+
+git remote -v — Show remote URLs
+
+git remote add origin <url> — Connect local repo to GitHub
+
+git push -u origin <branch> — First push
+
+git push — Push latest commits
+
+git pull — Pull & merge latest updates
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8️⃣ Undo / Reset / Clean Commands
+
+git restore <file> — Undo file changes
+
+git restore . — Undo all changes
+
+git clean -n — Show what will be deleted
+
+git clean -f — Delete untracked files
+
+git revert <commit> — Revert a commit safely
+
+git checkout -- <file> — Restore file to last commit
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9️⃣ Inspection & Comparison Commands
+
+git status — Show current status
+
+git diff — Show unstaged file differences
+
+git diff --staged — Show staged differences
+
+git log — Full commit history
+
+git log --oneline — Short history
+
+git show <commit> — Show commit details
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+🔟 Advanced Commands (Real Dev Use)
+
+git stash — Temporarily save changes
+
+git stash pop — Restore stashed changes
+
+git stash list — Show stashes
+
+git cherry-pick <commit> — Apply a commit from another branch
+
+git tag <tag-name> — Create tag
+
+git bisect — Debug using binary search
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
