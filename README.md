@@ -106,43 +106,43 @@ Git commands are not infinte. They fall into 10 main categories.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 8️⃣ Undo / Reset / Clean Commands
 
-git restore <file> — Undo file changes
+    A) git restore <file> — Undo file changes
 
-git restore . — Undo all changes
+    B) git restore . — Undo all changes
 
-git clean -n — Show what will be deleted
+    C) git clean -n — Show what will be deleted
 
-git clean -f — Delete untracked files
+    D) git clean -f — Delete untracked files
 
-git revert <commit> — Revert a commit safely
+    E) git revert <commit> — Revert a commit safely
 
-git checkout -- <file> — Restore file to last commit
+    F) git checkout -- <file> — Restore file to last commit
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 9️⃣ Inspection & Comparison Commands
 
-git status — Show current status
+    A) git status — Show current status
 
-git diff — Show unstaged file differences
+    B) git diff — Show unstaged file differences
 
-git diff --staged — Show staged differences
+    C) git diff --staged — Show staged differences
 
-git log — Full commit history
+    D) git log — Full commit history
 
-git log --oneline — Short history
+    E) git log --oneline — Short history
 
-git show <commit> — Show commit details
+    F) git show <commit> — Show commit details
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🔟 Advanced Commands (Real Dev Use)
 
-git stash — Temporarily save changes
+    A) git stash — Temporarily save changes
 
-git stash pop — Restore stashed changes
+    B) git stash pop — Restore stashed changes
 
-git stash list — Show stashes
+    C) git stash list — Show stashes
 
-git cherry-pick <commit> — Apply a commit from another branch
+    D) git cherry-pick <commit> — Apply a commit from another branch
 
-git tag <tag-name> — Create tag
+    E) git tag <tag-name> — Create tag
 
-git bisect — Debug using binary search
+    F) git bisect — Debug using binary search
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
