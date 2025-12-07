@@ -31,6 +31,7 @@ Git commands are not infinte. They fall into 10 main categories.
    F) git help <command>
    
       Explanation: Shows detailed help for a specific Git command. Ex: git help commit. helps you understand what the command does, its options, and how to use it.
+   
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------
  2. REPOSITORY CREATION COMMANDS
     
@@ -46,7 +47,7 @@ Git commands are not infinte. They fall into 10 main categories.
     
      Explanation: Initializes a repository with the default branch set to main, instead of older defaults like master
 
-    D) git clone --branch <branch>
+    D) git clone --branch <branch> <url>
     
     Explanation: Clones a repository and checks out a specific branch. Example: git clone --branch dev <url>. Useful when you want to work on a particular branch        instead of the default.
 
@@ -84,4 +85,33 @@ Git commands are not infinte. They fall into 10 main categories.
      F) git restore --staged <file>
      
      Explanation: Unstages a file without changing its actual content. Useful if you accidentally added a file to the staging area.
-  -----------------------------------------------------------------------------------------------------------------------------------------------------------------  
+     
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------  
+
+4. COMMIT COMMANDS
+
+   A) git commit -m "message"
+   
+   Explanation: Creates a new commit with the staged changes and attaches a commit message. This is the standard way to save your work in Git.
+
+   B) git commit -am "message"
+   
+   Explanation: Adds and commits all modified, already-tracked files in one step. Useful when you want to quickly commit updates without running git add manually.
+
+   C) git commit --amend
+   
+   Explanation: Modifies the most recent commit. You can update the commit message or include additional staged changes.
+
+  D) git reset HEAD~1
+  
+  Explanation: Reverts the last commit but keeps the changes in your working directory. Useful when you want to redo the commit without losing your work.
+
+  E) git reset --soft HEAD~1
+  
+  Explanation: Removes the last commit but keeps all changes staged. Use this when you want to rewrite or combine commits.
+
+  F) git reset --hard HEAD~1
+  
+  Explanation: Completely deletes the last commit and discards all related changes. Use with caution because this action cannot be undone.
+  
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
