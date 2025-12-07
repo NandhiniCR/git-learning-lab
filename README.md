@@ -102,16 +102,16 @@ Git commands are not infinte. They fall into 10 main categories.
    
    Explanation: Modifies the most recent commit. You can update the commit message or include additional staged changes.
 
-  D) git reset HEAD~1
+   D) git reset HEAD~1
   
-  Explanation: Reverts the last commit but keeps the changes in your working directory. Useful when you want to redo the commit without losing your work.
+   Explanation: Reverts the last commit but keeps the changes in your working directory. Useful when you want to redo the commit without losing your work.
 
-  E) git reset --soft HEAD~1
+   E) git reset --soft HEAD~1
   
-  Explanation: Removes the last commit but keeps all changes staged. Use this when you want to rewrite or combine commits.
+   Explanation: Removes the last commit but keeps all changes staged. Use this when you want to rewrite or combine commits.
 
-  F) git reset --hard HEAD~1
+   F) git reset --hard HEAD~1
   
-  Explanation: Completely deletes the last commit and discards all related changes. Use with caution because this action cannot be undone.
+   Explanation: Completely deletes the last commit and discards all related changes. Use with caution because this action cannot be undone.
   
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
