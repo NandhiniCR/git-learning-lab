@@ -8,7 +8,7 @@ Git commands are not infinte. They fall into 10 main categories.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1️⃣ Setup & Configuration Commands
 
-   A) git --version — Check installed Git version
+    A) git --version — Check installed Git version
 
    B) git config --global user.name "Your Name" — Set username
 
