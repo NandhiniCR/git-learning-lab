@@ -28,10 +28,6 @@ Git commands are not infinte. They fall into 10 main categories.
    
       Explanation: Opens the general Git help documentation. It provides a list of Git commands and guides on how to use them.
    
-   F) git help <command>
-   
-      Explanation: Shows detailed help for a specific Git command. Ex: git help commit. helps you understand what the command does, its options, and how to use it.
-   
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------
  2. REPOSITORY CREATION COMMANDS
     
