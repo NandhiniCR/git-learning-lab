@@ -30,10 +30,6 @@ NOTE:- short, professional, and strong.
 
 Click a section to jump directly:
 
-## Quick Navigation
-
-Click a section to jump directly:
-
 1️⃣ [Setup & Configuration Commands](#setup-configuration-commands)  
 2️⃣ [Repository Creation Commands](#repository-creation-commands)  
 3️⃣ [File Tracking & Staging Commands](#file-tracking-and-staging-commands)  
