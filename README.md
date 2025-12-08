@@ -30,19 +30,72 @@ NOTE:- short, professional, and strong.
 
 Click a section to jump directly:
 
-# Quick Navigation  
+## Quick Navigation
+
 Click a section to jump directly:
 
-1️⃣ [Setup & Configuration Commands](#setup--configuration-commands)  
+1️⃣ [Setup & Configuration Commands](#setup-configuration-commands)  
 2️⃣ [Repository Creation Commands](#repository-creation-commands)  
-3️⃣ [File Tracking & Staging Commands](#file-tracking--staging-commands)  
+3️⃣ [File Tracking & Staging Commands](#file-tracking-and-staging-commands)  
 4️⃣ [Commit Commands](#commit-commands)  
 5️⃣ [Branching Commands](#branching-commands)  
-6️⃣ [Merging & Rebase Commands](#merging--rebase-commands)  
+6️⃣ [Merging & Rebase Commands](#merging-and-rebase-commands)  
 7️⃣ [Remote Repository Commands](#remote-repository-commands)  
-8️⃣ [Undo / Reset / Clean Commands](#undo--reset--clean-commands)  
-9️⃣ [Inspection & Comparison Commands](#inspection--comparison-commands)  
+8️⃣ [Undo / Reset / Clean Commands](#undo-reset-clean-commands)  
+9️⃣ [Inspection & Comparison Commands](#inspection-comparison-commands)  
 🔟 [Advanced Commands](#advanced-commands)
+
+---
+
+<!-- Anchors + Section headers (place these where your existing section headers are) -->
+
+<a name="setup-configuration-commands"></a>
+## 1️⃣ Setup & Configuration Commands
+
+...your content...
+
+<a name="repository-creation-commands"></a>
+## 2️⃣ Repository Creation Commands
+
+...your content...
+
+<a name="file-tracking-and-staging-commands"></a>
+## 3️⃣ File Tracking & Staging Commands
+
+...your content...
+
+<a name="commit-commands"></a>
+## 4️⃣ Commit Commands
+
+...your content...
+
+<a name="branching-commands"></a>
+## 5️⃣ Branching Commands
+
+...your content...
+
+<a name="merging-and-rebase-commands"></a>
+## 6️⃣ Merging & Rebase Commands
+
+...your content...
+
+<a name="remote-repository-commands"></a>
+## 7️⃣ Remote Repository Commands
+
+...your content...
+
+<a name="undo-reset-clean-commands"></a>
+## 8️⃣ Undo / Reset / Clean Commands
+
+...your content...
+
+<a name="inspection-comparison-commands"></a>
+## 9️⃣ Inspection & Comparison Commands
+
+...your content...
+
+<a name="advanced-commands"></a>
+## 🔟 Advanced Commands
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 1️⃣ Setup & Configuration Commands
