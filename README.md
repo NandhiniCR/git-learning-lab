@@ -26,31 +26,26 @@ About This Repository
 A clean and complete reference of essential Git commands, organized by category with clear explanations for beginners and professionals."    
 NOTE:- short, professional, and strong.
 
-Quick Navigation
+## Quick Navigation
 
 Click a section to jump directly:
 
-## 1️⃣ Setup & Configuration Commands
+# Quick Navigation  
+Click a section to jump directly:
 
-## 2️⃣ Repository Creation Commands
+1️⃣ [Setup & Configuration Commands](#setup--configuration-commands)  
+2️⃣ [Repository Creation Commands](#repository-creation-commands)  
+3️⃣ [File Tracking & Staging Commands](#file-tracking--staging-commands)  
+4️⃣ [Commit Commands](#commit-commands)  
+5️⃣ [Branching Commands](#branching-commands)  
+6️⃣ [Merging & Rebase Commands](#merging--rebase-commands)  
+7️⃣ [Remote Repository Commands](#remote-repository-commands)  
+8️⃣ [Undo / Reset / Clean Commands](#undo--reset--clean-commands)  
+9️⃣ [Inspection & Comparison Commands](#inspection--comparison-commands)  
+🔟 [Advanced Commands](#advanced-commands)
 
-## 3️⃣ File Tracking & Staging Commands
-
-## 4️⃣ Commit Commands
-
-## 5️⃣ Branching Commands
-
-## 6️⃣ Merging & Rebase Commands
-
-## 7️⃣ Remote Repository Commands
-
-## 8️⃣ Undo / Reset / Clean Commands
-
-## 9️⃣ Inspection & Comparison Commands
-
-## 🔟 Advanced Commands
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-1️⃣ Setup & Configuration Commands
+## 1️⃣ Setup & Configuration Commands
 
     A) git --version — Check installed Git version
 
@@ -64,7 +59,7 @@ Click a section to jump directly:
 
     F) git help <command> — Explain any Git command
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-2️⃣ Repository Creation Commands
+## 2️⃣ Repository Creation Commands
 
     A) git init — Create a new Git repository
 
@@ -78,7 +73,7 @@ Click a section to jump directly:
 
     F) git init --bare — Create a bare repository (server-style)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-3️⃣ File Tracking & Staging Commands
+## 3️⃣ File Tracking & Staging Commands
 
     A) git add <file> — Stage a file
 
@@ -92,7 +87,7 @@ Click a section to jump directly:
 
     F) git restore --staged <file> — Unstage file
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-4️⃣ Commit Commands
+## 4️⃣ Commit Commands
 
     A) git commit -m "message" — Commit staged changes
 
@@ -106,7 +101,7 @@ Click a section to jump directly:
 
     F) git reset --hard HEAD~1 — Undo commit & delete changes
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-5️⃣ Branching Commands
+## 5️⃣ Branching Commands
 
     A) git branch — List all branches
 
@@ -120,7 +115,7 @@ Click a section to jump directly:
 
     F) git switch -c <name> — Create + switch branch
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-6️⃣ Merging & Rebase Commands
+## 6️⃣ Merging & Rebase Commands
 
     A) git merge <branch> — Merge branch into current
 
@@ -134,7 +129,7 @@ Click a section to jump directly:
 
     F) git merge --no-ff <branch> — Create merge commit even when fast-forward
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-7️⃣ Remote Repository Commands
+## 7️⃣ Remote Repository Commands
 
     A) git remote — List remotes
 
@@ -148,7 +143,7 @@ Click a section to jump directly:
 
     F) git pull — Pull & merge latest updates
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-8️⃣ Undo / Reset / Clean Commands
+## 8️⃣ Undo / Reset / Clean Commands
 
     A) git restore <file> — Undo file changes
 
@@ -162,7 +157,7 @@ Click a section to jump directly:
 
     F) git checkout -- <file> — Restore file to last commit
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-9️⃣ Inspection & Comparison Commands
+## 9️⃣ Inspection & Comparison Commands
 
     A) git status — Show current status
 
@@ -176,7 +171,7 @@ Click a section to jump directly:
 
     F) git show <commit> — Show commit details
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🔟 Advanced Commands (Real Dev Use)
+## 🔟 Advanced Commands 
 
     A) git stash — Temporarily save changes
 
