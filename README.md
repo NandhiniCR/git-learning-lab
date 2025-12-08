@@ -151,8 +151,8 @@ Click a section to jump directly:
 
     F) git pull — Pull & merge latest updates
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<a name="remote-repository-commands"></a>
-## 7️⃣ Remote Repository Commands
+<a name="undo-reset-clean-commands"></a>
+## 8️⃣ Undo / Reset / Clean Commands
 
     A) git restore <file> — Undo file changes
 
