@@ -1,6 +1,7 @@
 # git-learning-lab
 
 Let's Start
+
 INTRO
 
 What is Git? 
@@ -29,25 +30,25 @@ Quick Navigation
 
 Click a section to jump directly:
 
-1️⃣ Setup & Configuration Commands
+## 1️⃣ Setup & Configuration Commands
 
-2️⃣ Repository Creation Commands
+## 2️⃣ Repository Creation Commands
 
-3️⃣ File Tracking & Staging Commands
+## 3️⃣ File Tracking & Staging Commands
 
-4️⃣ Commit Commands
+## 4️⃣ Commit Commands
 
-5️⃣ Branching Commands
+## 5️⃣ Branching Commands
 
-6️⃣ Merging & Rebase Commands
+## 6️⃣ Merging & Rebase Commands
 
-7️⃣ Remote Repository Commands
+## 7️⃣ Remote Repository Commands
 
-8️⃣ Undo / Reset / Clean Commands
+## 8️⃣ Undo / Reset / Clean Commands
 
-9️⃣ Inspection & Comparison Commands
+## 9️⃣ Inspection & Comparison Commands
 
-🔟 Advanced Commands
+## 🔟 Advanced Commands
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1️⃣ Setup & Configuration Commands
 
